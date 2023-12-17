@@ -382,3 +382,124 @@ body {
     height: 281px;
     background: url(/img/facilitiesBot.png);
 }
+.realstories{
+    position: relative;
+    height: 900px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #F4E3E9;
+}
+.realstories__title{
+    color: var(--Grey-Two, #424242);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.2%;
+    width: 414px;
+    position: absolute;
+    top: 126px;
+    left: 254px;
+}
+.realstories__description{
+    color: var(--Grey-Two, #424242);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 313px;
+    position: absolute;
+    top: 252px;
+    left: 254px;
+}
+.realstories__review1{
+    position: absolute;
+    top: 306px;
+    left: 351px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+    width: 349px;
+    height: 445px;
+}
+.realstories__review2{
+    position: absolute;
+    top: 165px;
+    left: 733px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+    width: 449px;
+    height: 343px;
+}
+.realstories__review3{
+    position: absolute;
+    top: 541px;
+    left: 733px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+    width: 351px;
+    height: 278px;
+}
+.realstories__review-title{
+    position: absolute;
+    left: 27px;
+    color: #E43071;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.2%;
+}
+.realstories__review-ico{
+    position: absolute;
+    left: 27px;
+    display: block;
+    width: 29px;
+    height: 67px;
+    background: url(/img/realstoryico.svg) no-repeat center;
+}
+.realstories__review-text{
+    position: absolute;
+    left: 64px;
+    top: 108px;
+    color: #424242;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.realstories__review-name{
+    position: absolute;
+    left: 142px;
+    color: #424242;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+}
+.realstories__review-description{
+    position: absolute;
+    left: 142px;
+    color: #969BAB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+.realstories__review-face{
+    position: absolute;
+    left: 67px;
+    display: block;
+    width: 59px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 317px;
+}
+.app{
+    height: 491px;
+    background-color: #E43071;
+}
