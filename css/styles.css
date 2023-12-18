@@ -500,6 +500,143 @@ body {
     border-radius: 317px;
 }
 .app{
+    position: relative;
     height: 491px;
     background-color: #E43071;
+}
+.app__wrap{
+    width: 66%;
+    padding-top: 112px;
+    margin: 0 auto;
+}
+.app__title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.app__description{
+    display: block;
+    width: 489px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+.app__download{
+    display: block;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.app__store{
+    padding-top: 10px;
+}
+.app__store-google{
+    display: inline-block;
+    width: 135px;
+    height: 40px;
+    background: url(/img/GooglePlay.svg);
+}
+.app__store-apple{
+    display: inline-block;
+    width: 135px;
+    height: 40px;
+    background: url(/img/AppStore.svg);
+}
+.app__phoneimages{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 661px;
+    height: 572px;
+    overflow: hidden;
+}
+.app__phoneico{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 232px;
+    height: 464px;
+    background: url(/img/iphone.png) no-repeat;
+    background-size: cover;
+    transform-style: preserve-3d;
+    /* box-shadow: 10px 15px 30px 0px rgba(41, 41, 42, 0.50); */
+}
+.app__phoneico-fill1{
+    display: block;
+    width: 202.326px;
+    height: 438.102px;
+    transform: translateZ(-10px);
+    background: url(/img/fill1.png) no-repeat;
+    background-size: cover;
+}
+.app__phoneico-fill2{
+    display: block;
+    width: 202.326px;
+    height: 438.102px;
+    transform: translateZ(-10px);
+    background: url(/img/fill2.png) no-repeat;
+    background-size: cover;
+}
+.social{
+    height: 323px;
+    background: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social__title{
+    color: #E43071;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+.social__icons{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.social__icons-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background: url(/img/Oval.svg);
+}
+.social__icons-facebook{
+    display: block;
+    width: 14.958px;
+    height: 29.945px;
+    background: url(/img/facebookico.svg) no-repeat;
+    background-size: cover;
+}
+.social__icons-youtube{
+    display: block;
+    width: 24.831px;
+    height: 29.916px;
+    background: url(/img/youtubeico.svg) no-repeat;
+    background-size: cover;
+}
+.social__icons-instagram{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(/img/instagramico.svg) no-repeat;
+    background-size: cover;
 }
